@@ -1,0 +1,8 @@
+# Redirect domain aliases to primary domain
+https://www.canaanculturemedia.vip/* https://canaanculturemedia.vip/:splat 301!
+
+# Handle admin routes
+/admin/* /index.html 200
+
+# Handle client-side routing
+/*    /index.html   200

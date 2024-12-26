@@ -1,0 +1,19 @@
+.animate-gradient {
+  animation: gradient 15s ease infinite;
+}
+
+.animate-float {
+  animation: float 20s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.rtl-flip {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .rtl-flip {
+  transform: rotate(0deg);
+}
